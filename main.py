@@ -86,7 +86,7 @@ crew = Crew(
 )
 
 # Define needed input variables and create input dict
-dish_type="Pasta and Salad"
+dish_type="Chicken and Salad"
 location="Rio de Janeiro/Brazil"
 family_size=4
 team_size=2
@@ -112,6 +112,8 @@ print(result)
 import pandas as pd
 
 costs = (0.10 * crew.usage_metrics.prompt_tokens + 0.40 * crew.usage_metrics.completion_tokens) / 1_000_000
+print("\n\n\n")
+print("=====================================================")
 print(f"Total costs: ${costs:.4f}")
 
 # Convert UsageMetrics instance to a DataFrame

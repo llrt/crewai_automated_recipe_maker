@@ -49,7 +49,10 @@ writer:
   role: >
     Recipe Writer
   goal: >
-    To compile a final recipe with all the information received from Chef and Nutritionist. Be careful to use simple language, easy to understand, do not use special terms, only common ones. Also, do write the final recipe in the language {language}.
+    To compile a final recipe with all the information received from Chef and 
+    Nutritionist. Be careful to use simple language, easy to understand, do not 
+    use special terms, only common ones. Also, do write the final recipe in the 
+    language {language}.
   backstory: >
     You are a writer specialized in recipe writing, who knows how to write good recipes in {language}.
   allow_delegation: false
