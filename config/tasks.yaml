@@ -1,0 +1,24 @@
+recipe_creation:
+  description: >
+    Create a {dish_type} recipe for a family of {family_size} people.
+  expected_output: >
+    A detailed recipe, with a list of ingredients and step-by-step directions, an estimated number of servings,
+    and estimated time of preparation.
+
+recipe_critic:
+  description: >
+    Thoroughly evaluate the provided recipe, identifying if it is too complex or less tasteful.
+  expected_output: >
+    A detailed critique, indicating CLEARLY if the recipe is approved or not. If not approved, insights and recommendations MUST be provided.
+
+nutrition_assessment:
+  description: >
+    Evaluate the provided recipe, identifying its nutrition facts.
+  expected_output: >
+    A detailed table of nutrition facts, including calories, carbs, fat, vitamins, etc.
+
+recipe_writing:
+  description: >
+    Write the final recipe in {language}. You MUST use simple language. Do not use special terms, only common ones.
+  expected_output: >
+    A detailed recipe, containing sections for ingredients, servings, directions and nutrition facts, in this order. The recipe MUST be written in {language}. 
